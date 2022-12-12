@@ -1,5 +1,16 @@
+const treefun2 = require('treefun2');
 
-const element = document.createElement('div');
-element.append('hello');
+const tree = [{
+  label: 'World',
+  children: [{
+    label: 'Europe',
+    children: [{
+      label: 'France',
+    }, {
+      label: 'Germany'
+    }]
+  }]
+}];
 
-document.body.append(element);
+treefun2.treeToDiagram(document, document.body, tree, {}, '');
+
