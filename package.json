@@ -1,0 +1,14 @@
+{
+  "name": "treefun-browser-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "treefun2": "^2.0.6"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "scripts": {
+    "build:dev": "npx webpack --mode=development"
+  }
+}
